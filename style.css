@@ -68,3 +68,32 @@ padding: 1%;
     font-size: 2em;
     color: azure;
 }
+.Likes {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    display:table;
+    margin:auto;
+    text-align: left;
+}
+.Likes1 {
+    text-align: left;
+}
+#Interest {
+    text-align: center;
+}
+#Interest > h5, li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border-style: groove;
+    border-radius: 50px;
+}
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 1em;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
